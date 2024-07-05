@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Italo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>DON ITALO</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Busca tu producto">
+        </div>
+    </div>
+    <div class="nav-bar">
+        <a href="/index">Inicio</a>
+        <a href="/vestimentas">Vestimentas</a>
+        <a href="/decoraciones">Decoraciones</a>
+        <a href="/tecnologias">Tecnologías</a>
+    </div>
+    <div class="content">
+        <img src="//www.web4.com.ar/wp-content/uploads/2020/07/banner-requisitos-tienda.jpg" alt="Store Image">
+    </div>
+    <div class="categories">
+        <div class="category">
+            <a href="/tecnologias">
+            <img src="//cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/11/50-regalos-tecnologicos-menos-50-euros.jpg?tf=3840x" alt="Equipos Tecnologicos" width="300" height="300">
+            </a>
+            <h2>Equipos Tecnologicos</h2>
+        </div>
+        <div class="category">
+            <a href="/vestimentas">
+            <img src="//i0.wp.com/hotbook.mx/wp-content/uploads/2017/04/caballeria.jpg?fit=950%2C600&ssl=1" alt="Vestimentas" width="300" height="300">
+            </a>
+            <h2>Vestimentas</h2>
+        </div>
+        <div class="category">
+            <a href="/decoraciones">
+            <img src="//a1.elespanol.com/cronicaglobal/2015/02/05/vida/vida_8760321_3113069_1706x960.jpg" alt="Decoraciones" width="300" height="300">
+            </a>
+            <h2>Decoraciones</h2>
+        </div>
+    </div>
+</body>
+</html>
